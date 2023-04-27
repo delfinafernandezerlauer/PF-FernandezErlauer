@@ -66,6 +66,17 @@ footer {
     width: 330px ; height:215px
 }
 
-.extra-padding{
-   padding:7%;
+.smaller-image{
+    width: 295px; height: 210px;padding: 20px;
 }
+
+.extra-padding{
+   padding:7%;;
+}
+
+.photo-grid-container{
+display: grid; justify-content: center;grid-template-columns: repeat(3 1fr); padding-top: 30px; padding-bottom: 30px;
+
+}
+
+.photo-grid {display: flex; justify-content:space-around;}
