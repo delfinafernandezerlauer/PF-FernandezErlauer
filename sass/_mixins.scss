@@ -1,0 +1,44 @@
+/*
+propiedades que se repiten, rellenar valores
+*/
+
+/* mixin para tamanio de imagenes */
+
+
+@mixin tamanio-imagenes($width,$height,$padding){
+    width: $width;
+    height: $height;
+    padding: $padding;
+}
+
+.small-image{
+
+    @media screen and (min-width:457px) {
+        @include tamanio-imagenes(330px,215px ,0px )
+    }
+    @media screen and (max-width:457px) {
+        @include tamanio-imagenes(295px,210px ,20px )
+    }
+    
+}
+
+
+/* mixin para color del texto */
+
+@mixin color-texto($color){
+    color: $color;
+}
+
+
+.texto-oscuro{
+    @include color-texto(#22223b)
+}
+
+.texto-claro{
+    @include color-texto(#f2e9e4)
+}
+
+.texto-rosado{
+    @include color-texto(#c9ada7)
+}
+
