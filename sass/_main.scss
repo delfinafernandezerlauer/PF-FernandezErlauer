@@ -20,19 +20,21 @@ main{
     }
 
     .title-pages{
-        @media screen and (width>989px) {
+        @media screen and (min-width:751px) {
             
             padding:30px 0px 50px 70px;}
                     
-            @media screen and (max-width: 456px) {
-                
+            @media screen and (max-width: 750px) {
+                h1, p{
+                    display: flex;
+                    justify-content: center;
+                }
             }
         
-            @media screen and (max-width:989px){
-                display: flex;;
-                justify-content: center;
-                padding:30px 0px 30px 0px;
-            }
+            // @media screen and (max-width:989px){
+
+            //     padding:30px 0px 30px 0px;
+            // }
     }
 
 }

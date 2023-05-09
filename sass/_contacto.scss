@@ -1,11 +1,31 @@
+.main-contacto{
 
 
-/* contacto */
+    iframe{
+        @media screen and (min-width:610px) {
+            width:60%; height:250px
+        }
+       
+        @media screen and (max-width:609px) {
+         width: 95%; height: 250px;   
+        }
+    }
 
-// .photo-grid-container{
-//     display: grid; justify-content: center;grid-template-columns: repeat(3 1fr); padding-top: 30px; padding-bottom: 30px;
+
+    .gallery{
+       
+        @media screen and (max-width:750px) {
+            
+        
+        justify-content: center;
+        }
+
+       .grid-item{
+
+     padding: 5px 0px 4px 15px;
+
+       }
+    }
+
     
-//     }
-    
-//     .photo-grid {display: flex; justify-content:space-around;}
-
+}
