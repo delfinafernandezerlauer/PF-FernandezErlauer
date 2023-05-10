@@ -97,7 +97,7 @@ footer .iconos {
 @media screen and (max-width: 609px) {
   .main-contacto iframe {
     width: 95%;
-    height: 250px;
+    height: 249px;
   }
 }
 @media screen and (max-width: 750px) {
