@@ -1,14 +1,19 @@
 main{
 
-    background-color: #545870;
-    .main-section{
+    background-color: #e3dbe2;
 
+    .index-box{
+        background-color: #d6c7cc;border-radius: 7px;
+    }
+
+    .main-section{
+        background-color: rgb(198, 184, 198);
         @media screen and (width>457px) {
             
-        padding: 5rem 3rem 3rem 6rem;}
+        padding: 5rem 2rem 3rem 6rem;}
                 
         @media screen and (max-width: 456px) {
-            padding: 4rem 2rem 2rem 6rem;
+            padding: 4rem 6rem 2rem 6rem;
         }
     
         @media screen and (max-width:989px){
@@ -19,12 +24,27 @@ main{
         
     }
 
+    .subtitle{
+        @media screen and (max-width:989px){
+            text-align: center;
+        }
+    }
+
     .main-option-image:hover{
        
         transform: scale(1.25);
     
     }
-    .main-option-box:hover{
+
+    .main-option-box{
+        background-color: #d6c7cc;border-radius: 7px;
+    }
+
+    .special-border{
+        border-right:  rgb(198, 184, 198) solid 2px ;
+    }
+
+    .animated-box:hover{
         transform: scale(1.1);
     }
 

@@ -30,8 +30,18 @@ propiedades que se repiten, rellenar valores
 }
 
 
+.texto-titles{
+    @include color-texto(#484246)
+}
+
 .texto-oscuro{
-    @include color-texto(#22223b)
+    @include color-texto(#301c2e
+    )
+}
+//22223b
+
+.texto-header{
+    @include color-texto(#f2e9e4)
 }
 
 .texto-claro{
